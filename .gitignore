@@ -1,4 +1,4 @@
-.DS_Store
+.DS_store
 applet
 application.linux-arm64
 application.linux-armv6hf
@@ -8,3 +8,5 @@ application.windows32
 application.windows64
 application.macosx
 out
+release
+
