@@ -1,0 +1,4 @@
+Die 3D-Welt wird mit Hilfe von Perlin-Noise anhand mehrerer Seeds prozedural generiert, wodurch eine dynamische Landschaft mit natürlich wirkender Topographie entsteht.
+Die generierte Welt ist in mehrere "Chunks" a 16*16*265 Blöcken aufgeteilt. Für jeden Chunk wird ein optimiertes 3D-Modell generiert, das nur die sichtbaren Blockseiten einberechnet. Dabei werden für jeden Chunk zwei seperate Meshes für transparente und solide Geometrie erstellt und seperat gerendert um (teil-)transparente Blöcke logisch darstellen zu können.
+Der Spieler interagiert physikaisch mit der Welt über ein maßgeschneidertes, gitterbasiertes Kollisionssystem, um unabhängig von FPS und Geschwindigkeit konsequente Funktion zu gewährleisten und "Clipping" zu verhindern.
+ 
